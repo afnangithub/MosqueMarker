@@ -1,6 +1,10 @@
 # MosqueMarker
 ==================================
+
+
 project base on Android Basics in Kotlin. This project base on Forage project
+
+
 Introduction
 ------------
 This is Mosque Marker app project. This project is getting information of location.
