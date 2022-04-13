@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MarkerDetailFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/action_settings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?attr/textAppearanceHeadline4"
+                tools:text="Name" />
+
+            <ImageView
+                android:id="@+id/ic_location"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/ic_ic_location_des"
+                android:src="@drawable/ic_location_24" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?attr/textAppearanceBody2"
+                tools:text="Address" />
+
+            <View
+                android:id="@+id/divider_location"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:background="?attr/dividerHorizontal" />
+
+            <ImageView
+                android:id="@+id/ic_bookmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:contentDescription="@string/ic_bookmark_des"
+                android:src="@drawable/ic_bookmark_border_24" />
+
+            <TextView
+                android:id="@+id/is_marker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?attr/textAppearanceBody2"
+                tools:text="Is this Mosque" />
+
+            <View
+                android:id="@+id/divider_marker"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerHorizontal" />
+
+            <ImageView
+                android:id="@+id/ic_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/ic_note_des"
+                android:src="@drawable/ic_notes_24" />
+
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="6"
+                android:singleLine="false"
+                android:textAlignment="center"
+                android:textAppearance="?attr/textAppearanceBody2"
+                tools:text="Notes" />
+
+            <View
+                android:id="@+id/divider_note"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerHorizontal" />
+
+            <TextView
+                android:id="@+id/dua_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                tools:text="@string/title_dua_go_mosque" />
+
+            <TextView
+                android:id="@+id/dua_contain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline4"
+                tools:text="@string/contain_dua_go_mosque" />
+
+            <TextView
+                android:id="@+id/dua_mean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceBody1"
+                tools:text="@string/mean_dua_go_mosque" />
+
+            <TextView
+                android:id="@+id/dua_latin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceBody1"
+                tools:text="@string/latin_dua_go_mosque" />
+
+            <TextView
+                android:id="@+id/dua_ref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceBody2"
+                tools:text="@string/ref_dua_go_mosque" />
+
+            <View
+                android:id="@+id/divider_dua"
+                android:layout_width="match_parent"
+                android:layout_height="128dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/edit_marker_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:contentDescription="@string/edit_marker_fab_des"
+        android:src="@drawable/ic_edit_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

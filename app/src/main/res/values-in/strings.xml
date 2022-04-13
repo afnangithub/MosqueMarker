@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penanda Mesjid</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="marker_name">Nama</string>
+    <string name="marker_location">Lokasi</string>
+    <string name="this_is">Ini Mesjid</string>
+    <string name="this_is_not">Ini bukan Mesjid</string>
+    <string name="notes">Catatan</string>
+    <string name="save">Simpan</string>
+    <string name="delete">Hapus</string>
+    <string name="ic_ic_location_des">Ini ikon lokasi</string>
+    <string name="ic_bookmark_des">Ini ikon penanda buku</string>
+    <string name="ic_note_des">Ini ikon catatan</string>
+    <string name="add_marker_fab_des">Ini FAB tambah penanda</string>
+    <string name="edit_marker_fab_des">Ini FAB edit penanda</string>
+    <string name="title_dua_go_mosque">"Doa pergi ke masjid "</string>
+    <string name="mean_dua_go_mosque">Beri aku cahaya di atas cahaya.</string>
+    <string name="ref_dua_go_mosque">"Al-Bukhari, lih.  Al-Asqalani, Fathul-Bari 11/118. "</string>
+    <string name="title_dua_leave_home">Doa saat meninggalkan rumah</string>
+    <string name="mean_dua_leave_home">"Dengan Nama Allah, saya bertawakal kepada Allah, tidak ada daya dan upaya kecuali dengan izin Allah. "</string>
+    <string name="ref_dua_leave_home">"Abu Dawud 4/325, At-Tirmithi 5/490.  Lihat juga Al-Albani, Sahih At-Tirmithi 3/151 "</string>
+</resources>

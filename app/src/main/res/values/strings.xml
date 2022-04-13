@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Mosque Marker</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="marker_name">Name</string>
+    <string name="marker_location">Location</string>
+    <string name="this_is">This is a Mosque</string>
+    <string name="this_is_not">This is not a Mosque</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <!-- For contentDescription-->
+    <string name="add_marker_fab_des">This is FAB add marker</string>
+    <string name="edit_marker_fab_des">This is FAB edit marker</string>
+    <string name="ic_ic_location_des">This is icon location</string>
+    <string name="ic_bookmark_des">This is icon bookmark</string>
+    <string name="ic_note_des">This is icon note</string>
+    <string name="title_dua_go_mosque">Dua going to the mosque</string>
+    <string name="contain_dua_go_mosque" translatable="false">وَهَبْ لِيْ نُوْراً عَلَى نُوْرٍ</string>
+    <string name="mean_dua_go_mosque">Grant me light upon light.</string>
+    <string name="ref_dua_go_mosque">Al-Bukhari, cf. Al-Asqalani, Fathul-Bari 11/118.</string>
+    <string name="title_dua_leave_home">Dua when leaving the home</string>
+    <string name="contain_dua_leave_home" translatable="false">" بِسْمِ اللّٰهِ، تَوَكَّلْتُ عَلَى اللّٰهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلاَّ بِاللّٰهِ "</string>
+    <string name="mean_dua_leave_home">"In the Name of Allah, I have placed my trust in Allah, there is no might and no power except by Allah. "</string>
+    <string name="latin_dua_leave_home" translatable="false">"Bismillaahi, tawakkaltu 'alallaahi, wa laa hawla wa laa quwwata illaa billaah. "</string>
+    <string name="ref_dua_leave_home">"Abu Dawud 4/325, At-Tirmithi 5/490. See also Al-Albani, Sahih At-Tirmithi 3/151 "</string>
+    <string name="latin_dua_go_mosque" translatable="false">"Wa hab lee nooran 'alaa noor. "</string>
+
+</resources>
